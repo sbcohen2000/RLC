@@ -14,6 +14,7 @@ executable RLC
     main-is:          Main.hs
     build-depends:    base
                     , HPDF
+                    , lens
                     , linear
                     , random
     hs-source-dirs:   app
